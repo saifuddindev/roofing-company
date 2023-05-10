@@ -1,0 +1,124 @@
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-left-container {
+    flex: 1;
+    background: #3a7d7c;
+    color: white;
+    padding-left: 20px;
+}
+
+.nav-right-container {
+    flex: 1;
+    background: #3a7d7c;
+    text-align: right;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .nav-left-container,
+    .nav-right-container {
+        flex-basis: 100%;
+    }
+}
+
+.social-icons a i {
+    font-size: 14px;
+    padding-top: 17px;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons a i:hover {
+    color: rgb(117, 117, 252);
+}
+
+.phone,
+.email {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+/*----navbar------*/
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlogo,
+.navlogin {
+    width: 25%;
+}
+
+.navmenu {
+    width: 40%;
+}
+
+.navlogo img {
+    width: 60%;
+}
+
+.navmenu {
+    text-align: center;
+
+}
+
+.navlogin {
+    text-align: right;
+}
+
+.navlogin a {
+    border: 1px solid rgb(247, 90, 43);
+    padding: 5px 10px;
+    background-color: rgb(247, 90, 43);
+    border-radius: 3px;
+    color: white;
+}
+
+.navmenu a {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: inline-block;
+    }
+
+    .navmenu,
+    .navlogin {
+        width: 100%;
+        display: inline;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+}
+
+@@media only screen and (max-width: 992px) and (min-width: 577px) {
+    .navbar {
+        display: inline-block;
+    }
+
+    .navmenu,
+    .navlogin {
+        width: 100%;
+        display: inline;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+}
